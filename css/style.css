@@ -1,0 +1,12 @@
+header{
+    background-color: red;
+    display: inline-block;
+}
+
+p{
+    background-color: green;
+    position: fixed;
+    bottom: O;
+    width: 100%;
+
+}
