@@ -25,8 +25,11 @@ h1{
     padding: 3rem 0;
 }
 nav{
+    width: 70%;
     background-color: var(--color-navbar);
     display: flex;
+    margin: 0 auto;
+    border-radius: 1rem 1rem 0 0 ;
 }
 
 nav a{
@@ -35,7 +38,6 @@ nav a{
     align-items: center;
     justify-content: center;
     text-align: center;
-    line-height: middle;
     text-decoration: none;
     color: rgb(65, 65, 65);
     display: inline-block;
@@ -45,19 +47,29 @@ nav a{
 }
 
 nav a:hover{
+    transition: 0.5s;
     color: white;
     background-color: rgba(128, 128, 128, 0.836);
 }
 
-footer{
+nav a:first-child:hover{
+    border-radius: 1rem 0 0 0;
+}
+
+nav a:last-child:hover{
+    border-radius: 0 1rem 0 0;
+}
+
+/*footer{
     background-color: var(--color-backarticle);
     text-align: center;
     padding: 2rem;
-}
+}*/
 
 main{
+    height: 100%;
     width: 70%;
-    margin: 3rem auto;
+    margin: auto;
 }
 
 article{
@@ -104,4 +116,8 @@ article div{
 }
 .right div{
     padding: 3rem 16rem 3rem 5rem;
+}
+
+.newsletter {
+    margin-top: 3rem;
 }
