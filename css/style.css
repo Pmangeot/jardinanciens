@@ -25,4 +25,9 @@ nav{
 }
 nav li{
     display: inline;
+    font-size: large;
+}
+
+article img{
+    max-width: 200px;
 }
