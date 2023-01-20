@@ -42,29 +42,48 @@ h2{
     padding-bottom: 2rem;
     padding-top: 1rem;
 }
+
 article img{
     max-width: 15rem;
     border-radius: 10px;
     position: absolute;
     top: 0px;
+}
+
+.left img{
     left:0px;
+}
+.right img{
+    right: 0px;
 }
 
 div{
     min-height: 23rem;
-    padding: 3rem 5rem 3rem 19rem;
     border-radius: 0.5rem;
     background-color: var(--color-backarticle);
     line-height: 2rem;
     text-align: center;
     vertical-align: middle;
+}
 
+.left div{
+    padding: 3rem 5rem 3rem 19rem;
+}
+.right div{
+    padding: 3rem 19rem 3rem 5rem;
 }
 
 article{
     width: 90%;
     min-height: 20rem;
     margin: 1.7rem auto;
-    padding: 1rem;
     position: relative;
+}
+
+.right{
+    padding: 1rem 1rem 1rem 0;
+}
+
+.left{
+    padding: 1rem 0 1rem 1rem;
 }
