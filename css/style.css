@@ -26,13 +26,21 @@ h1{
 }
 nav{
     background-color: var(--color-navbar);
+    display: flex;
 }
 
 nav a{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: middle;
     text-decoration: none;
     color: rgb(65, 65, 65);
     display: inline-block;
-    font-size:large;
+    font-size: 1.3rem;
+    font-weight: bold;
     padding: 0.5rem 4rem;
 }
 
