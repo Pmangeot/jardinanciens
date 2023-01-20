@@ -75,7 +75,7 @@ h2{
 }
 
 article div{
-    min-height: 23rem;
+    min-height: 15rem;
     border-radius: 2rem;
     background-color: var(--color-backarticle);
     line-height: 2rem;
