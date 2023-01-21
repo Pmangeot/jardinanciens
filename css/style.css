@@ -27,7 +27,6 @@ h1{
 nav{
     width: 70%;
     background-color: var(--color-navbar);
-    display: flex;
     margin: 0 auto;
     border-radius: 1rem 1rem 0 0 ;
 }
@@ -52,6 +51,7 @@ nav a:hover{
     background-color: rgba(128, 128, 128, 0.836);
 }
 
+/*
 nav a:first-child:hover{
     border-radius: 1rem 0 0 0;
 }
