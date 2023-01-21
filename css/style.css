@@ -92,6 +92,11 @@ article img{
 .right img{
     right: 0px;
 }
+.big-left img{
+    max-width: 18rem;
+    left:0px;
+    top: auto;
+}
 
 h2{
     font-family: "Dancing Script";
@@ -116,6 +121,10 @@ article div{
 }
 .right div{
     padding: 3rem 16rem 3rem 5rem;
+}
+.big-left div{
+    padding: 3rem 2rem 3rem 13rem;
+    margin-top: 3rem;
 }
 
 .newsletter {
