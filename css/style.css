@@ -130,3 +130,25 @@ article div{
 .newsletter {
     margin-top: 3rem;
 }
+
+@media screen and (max-width: 1160px){
+    nav, main{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    article img{
+    display: none;   
+    }
+
+    .left div, .right div, .big-left div{
+        padding: 3rem 3rem 3rem 3rem;
+
+    }
+
+    article{
+        padding: 0rem;
+    }
+
+}
