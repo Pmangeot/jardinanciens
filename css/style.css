@@ -139,16 +139,27 @@ article div{
 
 @media screen and (max-width: 910px) {
     article img{
-    display: none;   
+        position: relative;
+        margin-top: -3rem;
+        aspect-ratio: 16 /9;
+        min-width: 80%;
+        object-fit: cover;
     }
 
     .left div, .right div, .big-left div{
-        padding: 3rem 3rem 3rem 3rem;
+        padding: 1rem 3rem 4rem 3rem;
 
     }
 
     article{
         padding: 0rem;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    main{
+        margin-bottom: 10rem;
     }
 
 }
