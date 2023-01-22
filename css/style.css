@@ -59,11 +59,11 @@ nav a:hover{
 }
 
 div:first-child a:first-child:hover{
-    border-radius: 1rem 0 0 0;
+    border-radius: 0.7rem 0 0 0;
 }
 
 div:last-child a:last-child:hover{
-    border-radius: 0 1rem 0 0;
+    border-radius: 0 0.7rem 0 0;
 }
 
 /*footer{
@@ -154,10 +154,11 @@ article div{
 
     nav{
         width: 100%;
+        border-radius: 0;
     }
 
     .left div, .right div, .big-left div{
-        padding: 1rem 3rem 1rem 3rem;
+        padding: 1rem 1.5rem 1rem 1.5rem;
         border-radius: 2rem 2rem 0 0;
         min-height: 4rem;
         margin-top: 0;
@@ -175,4 +176,15 @@ article div{
         margin-bottom: 10rem;
     }
 
+    h1{
+        display: block;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    div:first-child a:first-child:hover{
+        border-radius: 0;
+    }
+    
+    div:last-child a:last-child:hover{
+        border-radius: 0;
 }
