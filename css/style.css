@@ -30,32 +30,27 @@ nav{
     background-color: var(--color-navbar);
     margin: 0 auto;
     border-radius: 0.7rem 0.7rem 0 0 ;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
 }
 
 nav div{
-    display: block;
+    display: inline;
 }
 
 nav a{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1.5rem;
-    font-weight: mormal;
-    padding: 0.5rem 4rem;
+    font-weight: normal;
+    padding: 0.5rem;
     color: aliceblue;
 }
 
 nav a:hover{
     transition: 0.3s;
     color: white;
-    background-color: rgba(128, 128, 128, 0.836);
+    background-color: rgba(128, 128, 128, 0.7);
 }
 
 /*
@@ -155,10 +150,11 @@ article div{
 
 
     .left div, .right div, .big-left div{
+        position: relative;
         padding: 1rem 3rem 1rem 3rem;
         border-radius: 2rem 2rem 0 0;
         min-height: 4rem;
-
+        min-width: calc(100% - 7rem);
     }
 
     article{
