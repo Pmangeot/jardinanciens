@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 :root{
-    --color-navbar: rgba(211, 211, 211, 0.65);
+    --color-navbar: rgba(211, 211, 211, 0.5);
     --color-backarticle: rgb(226, 226, 226);
 }
 
@@ -16,11 +16,12 @@ header{
     background-size: cover;
     text-align: center;
     color: white;
+    font-family: "Dancing Script";
 }
 
 h1{
     text-shadow: 1px 1px 1px gray;
-    font-family: "Dancing Script";
+
     font-size: 5rem;
     padding: 3rem 0;
 }
@@ -28,9 +29,9 @@ nav{
     width: 70%;
     background-color: var(--color-navbar);
     margin: 0 auto;
-    border-radius: 1rem 1rem 0 0 ;
+    border-radius: 0.7rem 0.7rem 0 0 ;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 nav div{
@@ -44,15 +45,15 @@ nav a{
     justify-content: center;
     text-align: center;
     text-decoration: none;
-    color: rgb(65, 65, 65);
     display: inline-block;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: mormal;
     padding: 0.5rem 4rem;
+    color: aliceblue;
 }
 
 nav a:hover{
-    transition: 0.5s;
+    transition: 0.3s;
     color: white;
     background-color: rgba(128, 128, 128, 0.836);
 }
@@ -152,9 +153,6 @@ article div{
         border-radius: 0 0 2rem 2rem;
     }
 
-    #welcomeimg{
-        
-    }
 
     .left div, .right div, .big-left div{
         padding: 1rem 3rem 1rem 3rem;
