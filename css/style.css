@@ -82,7 +82,7 @@ article{
     min-height: 20rem;
     margin: 1.7rem auto;
     position: relative;
-    padding: 3rem;
+    padding: 1.5rem 2rem 3rem 2rem;
 }
 
 article img{
@@ -125,13 +125,13 @@ article div{
 }
 
 .left div{
-    padding: 3rem 5rem 3rem 16rem;
+    padding: 1rem 3rem 3rem 16rem;
 }
 .right div{
-    padding: 3rem 16rem 3rem 5rem;
+    padding: 1rem 16rem 3rem 3rem;
 }
 .big-left div{
-    padding: 3rem 2rem 3rem 13rem;
+    padding: 1rem 2rem 3rem 13rem;
     margin-top: 3rem;
 }
 
@@ -160,9 +160,10 @@ article div{
     }
 
     .sticky{
-        position: - webkit - sticky;
+        position: -webkit-sticky;
         position: sticky;
         top: 0;
+        overscroll-behavior-block: scroll;
     }
 
     .left div, .right div, .big-left div{
