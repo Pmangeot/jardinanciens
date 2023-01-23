@@ -231,11 +231,7 @@ strong{
         align-items: center;
         padding: 1rem 0;
     }
-    div:first-child a:first-child:hover{
-        border-radius: 0;
-    }
-    
-    div:last-child a:last-child:hover{
+    a:first-child:hover, a:last-child:hover{
         border-radius: 0;
     }
 
