@@ -167,12 +167,18 @@ article div{
 .newsletter {
     margin-top: 3rem;
 }
+strong{
+    font-size: 1.5rem;
+    line-height: 4rem;
+}
 
 @media screen and (max-width: 1160px){
     nav, main{
         width: 90%;
     }
 }
+
+
 
 @media screen and (max-width: 910px) {
     article img{

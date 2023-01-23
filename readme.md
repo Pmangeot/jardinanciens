@@ -12,7 +12,7 @@ Le client etant mon frere et le service gratuit, je me reserve le droit de faire
 ## To Do list layout
 
 * Nettoyer le code et commenter le layout pour facilement mettre en page selon l'envie
-* ajout de strong dans le contenu pour lisibilite
+* ~~ajout de strong dans le contenu pour lisibilite~~
 * revoir charte couleur 
 * ~~police autre dans le texte~~
 * ~~Faire respirer le texte en page conseil~~
