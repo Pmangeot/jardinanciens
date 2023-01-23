@@ -205,4 +205,5 @@ article div{
     
     div:last-child a:last-child:hover{
         border-radius: 0;
+    }
 }
