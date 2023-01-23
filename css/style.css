@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Petit+Formal+Script&display=swap');
 
 :root{
     --color-navbar: rgba(211, 211, 211, 0.3);
@@ -11,7 +11,8 @@
 body{
     width: 100%;
     height: 100%;
-    font-family: sans-serif;
+    font-family: "Petit Formal Script", cursive;
+    font-size: 1.3rem;
 }
 
 header{
@@ -101,9 +102,11 @@ article img{
 
 .left img{
     left:0px;
+    transform: rotate(357deg);
 }
 .right img{
     right: 0px;
+    transform: rotate(3deg);
 }
 .big-left img{
     max-width: 18rem;
@@ -159,6 +162,13 @@ article div{
         min-width: 100%;
         object-fit: cover;
         border-radius: 0 0 2rem 2rem;
+    }
+
+    .left img{
+        transform: rotate(0);
+    }
+    .right img{
+        transform: rotate(0);
     }
 
     nav{
