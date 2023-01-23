@@ -108,13 +108,8 @@ article img{
     right: 0px;
     transform: rotate(3deg);
 }
-.big-left img{
-    max-width: 18rem;
-    left:0px;
-    top: auto;
-}
 
-.tips img{
+.full img{
     width: 12rem;
     height: 12rem;
 }
@@ -129,13 +124,13 @@ h2{
     background-color: var(--color-h2);
     border-radius: 1.5rem;
 }
-.left.tips h2{
+.left.full h2{
     margin-left: 12rem;
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
 
-.right.tips h2{
+.right.full h2{
     margin-right: 12rem;
     margin-top: 2rem;
     margin-bottom: 4rem;
@@ -156,11 +151,8 @@ article div{
 .right div{
     padding: 1rem 16rem 3rem 3rem;
 }
-.big-left div{
-    padding: 1rem 7rem 3rem 18rem;
-    margin-top: 3rem;
-}
-.tips div{
+
+.full div{
     padding: 1rem 3rem 3rem 3rem;
 }
 
@@ -208,7 +200,7 @@ strong{
         overscroll-behavior-block: scroll;
     }
 
-    .left div, .right div, .big-left div{
+    .left div, .right div{
         padding: 1rem 1.5rem 1rem 1.5rem;
         border-radius: 2rem 2rem 0 0;
         min-height: 4rem;
@@ -242,6 +234,6 @@ strong{
         border-radius: 0;
     }
 
-    .left.tips h2, .right.tips h2{
+    .left.full h2, .right.full h2{
         margin: 0 0rem 2rem 0rem;
 }
