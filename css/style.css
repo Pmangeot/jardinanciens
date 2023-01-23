@@ -114,6 +114,11 @@ article img{
     top: auto;
 }
 
+.tips img{
+    width: 12rem;
+    height: 12rem;
+}
+
 h2{
     font-family: "Dancing Script";
     font-size: 3rem;
@@ -123,6 +128,17 @@ h2{
     padding: 1rem;
     background-color: var(--color-h2);
     border-radius: 1.5rem;
+}
+.left.tips h2{
+    margin-left: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.right.tips h2{
+    margin-right: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
 }
 
 article div{
@@ -143,6 +159,9 @@ article div{
 .big-left div{
     padding: 1rem 7rem 3rem 18rem;
     margin-top: 3rem;
+}
+.tips div{
+    padding: 1rem 3rem 3rem 3rem;
 }
 
 .newsletter {
@@ -216,4 +235,7 @@ article div{
     div:last-child a:last-child:hover{
         border-radius: 0;
     }
+
+    .left.tips h2, .right.tips h2{
+        margin: 0 0rem 2rem 0rem;
 }
