@@ -12,6 +12,10 @@ Le client etant mon frere et le service gratuit, je me reserve le droit de faire
 ## To Do list layout
 
 * Nettoyer le code et commenter le layout pour facilement mettre en page selon l'envie
+* ajout de strong dans le contenu pour lisibilite
+* revoir charte couleur 
+* police autre dans le texte
+* Faire respirer le texte en page conseil
 * Rendre uniquement la navbar sticky en version mobile tout en conservant le background du header et en gardant l'integrite de l'image de background
 * Ajouter un autre layout d'article pour la version fullscreen pc + de 900 px (image sur le cote sur tout la hauteur un peu comme la version mobile ou l'image est en bas avec un maxheight de l'image et donc un radius qui doit apparaitre cote bas droite de l'image si article-text deviens plus grand (difficile et JS donc pas prioritaire, voir rendu avant))
 * Ajouter un background proteifome (type galet triangulaire) au titres h2 qui depasse legerement du background --color-backarticle pour donner un syle moins lourd
