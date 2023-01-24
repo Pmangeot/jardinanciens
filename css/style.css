@@ -24,6 +24,7 @@ body{
 header{
     background-image: URL("../ressources/fondtomates.jpg");
     background-size: cover;
+    background-position: 50% 93%;
     text-align: center;
     color: var(--color-title);
     font-family: var(--font-title);
@@ -34,13 +35,19 @@ h1{
     font-size: 5rem;
     padding: 3rem 0;
 }
-.classicnav{
+nav{
     width: 70%;
     background-color: var(--color-navbar);
-    margin: 0 auto;
     border-radius: 0.7rem 0.7rem 0 0 ;
     display: flex;
     justify-content:space-evenly;
+}
+.lowheader{
+    background-image: URL("../ressources/fondtomates.jpg");
+    background-size: cover;
+    background-position: 50% 100%;
+    display: flex;
+    justify-content: center;
 }
 
 nav div{
@@ -63,9 +70,6 @@ nav a{
     border-left: 1px solid var(--color-separator)
 }
 
-.mobilenav{
-    display:none;
-}
 
 a:first-child{
     border-left: none;
@@ -91,17 +95,23 @@ a:last-child:hover{
     padding: 2rem;
 }*/
 
-main{
+.mainContainer{
     height: 100%;
-    width: 70%;
-    margin: 2rem auto 0 auto;
+    width: 100%;
+    padding-top: 2rem;
+    background-image: url(../ressources/fondtomates.jpg), 0.5;
+    background-position: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-article{
+.mainContainer article{
     min-height: 20rem;
     margin: 0 auto;
     position: relative;
     padding: 1.5rem 2rem 3rem 2rem;
+    max-width: 40rem;
 }
 
 article img{
@@ -127,11 +137,6 @@ article img:hover{
     transform: rotate(3deg);
 }
 
-.full img{
-    width: 12rem;
-    height: 12rem;
-}
-
 h2{
     font-family: var(--font-title);
     font-size: 2.6rem;
@@ -155,17 +160,6 @@ h2{
     transform: rotate(359deg);
 }
 */
-.left.full h2{
-    margin-left: 12rem;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-}
-
-.right.full h2{
-    margin-right: 12rem;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-}
 
 article div{
     min-height: 17rem;
@@ -218,26 +212,19 @@ strong{
     nav{
         width: 100%;
         border-radius: 0;
-    }   
-    .classicnav{
-        display: none;
-    }
-    .mobilenav{
         width: 100%;
-        background-color: rgb(184, 184, 184);
         margin: 0 auto;
         display: flex;
         justify-content:space-evenly;
+        border-bottom: 1px solid var(--color-separator);
+    }
+    .lowheader{
         position: -webkit-sticky;
         position: sticky;
         top: 0;
         z-index: 4;
-        border-bottom;: 1px solid var(--color-separator)
     }
 
-    .mobilenav a{
-        color: black;
-    }
 
     .left div, .right div{
         padding: 1rem 1.5rem 1rem 1.5rem;
@@ -252,12 +239,14 @@ strong{
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
+        max-width: 37rem;
     }
 
 
-    main{
+    .mainContainer{
         width: 100%;
         margin: 0rem auto;
+        justify-content: center;
     }
 
     h1{
@@ -269,7 +258,7 @@ strong{
         border-radius: 0;
     }
 
-    .left.full h2, .right.full h2, .left h2, .right h2{
+    .left h2, .right h2{
         margin: 0 0rem 2rem 0rem;
     }
 
