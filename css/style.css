@@ -6,10 +6,9 @@
     --color-separator: rgba(36, 33, 33, 0.103);
     --color-backmain: rgb(221, 231, 233);
     --color-backarticle: rgb(233, 232, 232);
-
     --color-title: white;
     --color-title-shadow:rgba(83, 78, 78, 0.521);
-    --font-title: "Dancing Script"
+    --font-title: "Dancing Script";
 }
 
 body{
@@ -17,8 +16,7 @@ body{
     height: 100%;
     font-family: var(--font-title), cursive;
     font-size: 1.7rem;
-    font-weight: lighter
-    background-color: var(--color-backmain);
+    font-weight: lighter;
 }
 
 header{
@@ -99,13 +97,20 @@ a:last-child:hover{
     height: 100%;
     width: 100%;
     padding-top: 2rem;
-    background-image: url(../ressources/fondtomates.jpg), 0.5;
-    background-position: cover;
+    background-color: rgb(204, 197, 197);
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
+.backgroundMain{
+    opacity: 0.2;
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height: 100%;
+}
 .mainContainer article{
     min-height: 20rem;
     margin: 0 auto;
