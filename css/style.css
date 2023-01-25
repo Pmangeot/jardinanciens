@@ -175,9 +175,10 @@ article p{
 margin: 1rem;
 }
 
-.right p{
+p{
     font-family: 'Raleway';
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
 .left{
