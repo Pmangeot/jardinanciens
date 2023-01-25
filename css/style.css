@@ -19,9 +19,9 @@ body{
 }
 
 header{
-    background-image: URL("../ressources/fondtomates.jpg");
-    background-size: cover;
-    background-position: 50% 93%;
+    background-image: URL("../ressources/tomatoesheadertop.jpg");
+    background-size:cover;
+    background-position: 50% 100%;
     text-align: center;
     color: var(--color-title);
     font-family: var(--font-title);
@@ -40,9 +40,9 @@ nav{
     justify-content:space-evenly;
 }
 .lowheader{
-    background-image: URL("../ressources/fondtomates.jpg");
+    background-image: URL("../ressources/tomatoesheaderbottom.jpg");
     background-size: cover;
-    background-position: 50% 100%;
+    background-position: 50% 0%;
     display: flex;
     justify-content: center;
 }
