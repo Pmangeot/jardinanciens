@@ -108,7 +108,7 @@ footer p, footer a{
     width: 100%;
     padding-top: 1.5rem;
     background-image: url(../ressources/tomatoes.png);
-    background-size: cover;
+    background-size: inherit;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -185,7 +185,7 @@ article p{
 margin: 1rem;
 }
 
-p{
+p, .newsletter strong, .contact a, .contact span{
     font-family: 'Raleway';
     font-size: 1.3rem;
     font-weight: 500;
