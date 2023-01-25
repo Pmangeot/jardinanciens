@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Petit+Formal+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap');
 :root{
     --color-navbar: rgba(43, 42, 42, 0.219);
     --color-navbarhover: rgba(92, 90, 90, 0.582);
@@ -115,9 +114,7 @@ a:last-child:hover{
 
 .mainContainer article{
     min-height: 20rem;
-    margin: 0 auto;
     position: relative;
-    padding: 1.5rem 2rem 3rem 2rem;
     max-width: 40rem;
 }
 
@@ -133,12 +130,10 @@ article img:hover{
     transition: transform .15s ease;
     z-index: 1;
 }
-
 .left img{
     left:0px;
     transform: rotate(357deg);
 }
-
 .right img{
     right: 0px;
     transform: rotate(3deg);
@@ -154,35 +149,42 @@ h2{
     background-image: URL("../ressources/etiquette.png");
     background-size: 100% 100%;
     height: 8rem;
+    max-width: 16rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-/* tilted label, Deborah not convinced
-.left h2{
-    transform: rotate(1deg);
-}
-.right h2{
-    transform: rotate(359deg);
-}
-*/
-
-article div{
-    min-height: 17rem;
-    border-radius: 2rem;
-    background-image: URL("../ressources/fondpapier.jpg");
-    line-height: 2rem;
-    text-align: center;
-    vertical-align: middle;
-    padding: 1rem 3rem 3rem 3rem;
-}
-
 .left h2{    
     margin: 3rem 2rem 3rem 13rem;
 }
 .right h2{
     margin: 3rem 13rem 3rem 2rem;
+}
+
+article div{
+    min-height: 17rem;
+    border-radius: 1rem;
+    background-image: URL("../ressources/paper\ lisse.jpeg");
+    line-height: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1rem;
+}
+
+article p{
+margin: 1rem;
+}
+
+.right p{
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+}
+
+.left{
+    padding: 1.5rem 1rem 3rem 2rem;
+}
+.right{
+    padding: 1.5rem 2rem 3rem 1rem;
 }
 
 
@@ -206,7 +208,7 @@ strong{
         aspect-ratio: 3/1;
         min-width: 100%;
         object-fit: cover;
-        border-radius: 0 0 2rem 2rem;
+        border-radius: 0 0 1rem 1rem;
     }
 
     .left img{
@@ -235,10 +237,13 @@ strong{
 
     .left div, .right div{
         padding: 1rem 1.5rem 1rem 1.5rem;
-        border-radius: 2rem 2rem 0 0;
+        border-radius: 1rem 1rem 0 0;
         min-height: 4rem;
     }
 
+    .left, .right{
+        padding: 1rem;
+    }
 
     article{
         margin: 0.7rem;
@@ -254,6 +259,7 @@ strong{
         width: 100%;
         margin: 0rem auto;
         justify-content: center;
+        padding-top: 0;
     }
 
     h1{
@@ -266,7 +272,7 @@ strong{
     }
 
     .left h2, .right h2{
-        margin: 0 0rem 2rem 0rem;
+        margin: 0 auto 2rem auto;
     }
 
     article img:hover{
