@@ -253,7 +253,10 @@ strong{
         justify-content: center;
         max-width: 37rem;
     }
-
+    
+    article p{
+        margin: 0.3rem;
+    }
 
     .mainContainer{
         width: 100%;
