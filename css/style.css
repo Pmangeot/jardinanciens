@@ -96,20 +96,20 @@ a:last-child:hover{
     height: 100%;
     width: 100%;
     padding-top: 2rem;
-    background-color: rgb(204, 197, 197);
-    position: relative;
+    background-image: url(../ressources/tomatoes.png);
+    background-size: cover;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.backgroundMain{
+/*.backgroundMain{
     opacity: 0.2;
     position:absolute;
     left:0;
     top:0;
     width:100%;
     object-fit:fill;
-}
+}*/
 
 .mainContainer article{
     min-height: 20rem;
@@ -263,7 +263,7 @@ strong{
     }
 
     h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
         padding: 1rem;
     }
     a:first-child:hover, a:last-child:hover{
