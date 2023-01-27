@@ -19,6 +19,12 @@ body{
     font-weight: lighter;
 }
 
+main{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
 header{
     background-image: URL("../ressources/tomatoesheadertop.jpg");
     background-size:cover;
@@ -90,18 +96,21 @@ a:last-child:hover{
 
 footer{
     background-color: var(--color-backarticle);
+    background-image: URL("../ressources/tomatoesheaderbottom.jpg");
+    background-size: cover;
+    background-position: 50% 100%;
     text-align: center;
     display: flex;
     justify-content:flex-end;
-    align-items: center;
+    align-items: center;    
 }
 
 footer p, footer a{
     font-family: "Raleway";
-    color: black;
+    color: rgb(250, 250, 250);
     text-decoration: none;
     font-size: 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 .mainContainer{
@@ -182,8 +191,8 @@ article div{
     padding: 1rem;
 }
 
-article p{
-margin: 1rem;
+.article_text p{
+margin: 1.3rem 0.6rem;
 }
 
 p, .newsletter strong, .contact a, .contact span{
