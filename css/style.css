@@ -316,7 +316,8 @@ strong{
     }
 
     #album img:hover{
-        transform: scale(2) translatex(4.7rem);        
+        transform: width(100%) translatex(4.7rem);
+        width: 100%;       
     }
     #album img:nth-child(2n):hover{
         transform: scale(2) translatex(-4.7rem);        
