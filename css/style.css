@@ -129,6 +129,14 @@ footer p, footer a{
     margin:1.5rem;
 }
 
+album{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px:
+}
+
 article img{
     box-sizing: border-box;
     max-width: 15rem;
@@ -153,7 +161,7 @@ article img:hover{
 
 album img{
     position: relative;
-    margin: auto;
+    margin: 10px;
 }
 
 
@@ -316,7 +324,7 @@ strong{
     }
 
     #album img:hover{
-        transform: width(100%) translatex(4.7rem);
+        transform:  translatex(4.7rem);
         width: 100%;       
     }
     #album img:nth-child(2n):hover{
