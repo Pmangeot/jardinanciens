@@ -1,16 +1,83 @@
 <%- include('partials/header.ejs')%>
-        <div  class="mainContainer">
+<!--       <div  class="mainContainer plants">
             <article class="right">
-                <img src="/img/1674766806697.jpg" alt="Plaques de semis">
+                <img class="article_img" src="/img/1674766806697.jpg" alt="Plaques de semis">
                 <div class="article_text">
                     <h2>Trop tot ! </br>Revenez</br>mi-avril.</h2>
                     <p>C'est encore l'hiver !!! Les semis seront plantés début mars et les reservations se feront début avril</p>
                     <form class="newsletter">
                         <strong>Prévenez moi quand la vente commence ! :</strong></br>
                         <input type="email" placeholder="ne fonctionne pas encore" name="mail" required>
-                        <input type="submit" value="envoi"
+                        <input type="submit" value="envoi">
                     </form>
+
+                   
                 </div>
+
             </article>
         </div>
+--> 
+    <div class="mainContainer plants">
+        <article>
+            <div>
+                <h2>Page de </br></br>reservation</h2>
+                <div class="login">
+                    <input type"text" placeholder "Nom">
+                    <input type"text" placeholder "Email">
+                </div>
+                <div class="onglets">
+                    <h3> Tomates 2 </h3>    
+                    <h3> Cucurbitaces 1 </h3>
+                    <h3> Fleurs 0 </h3>
+                    <h3> Panier 3 </h3>
+                </div>
+         
+                <ul>
+                    <li class="product">
+                        <input type="number" id="MoirCrimee_id" name="Zebra_name" placeholder="0" min="0" max="10">
+                        <h3>Noire de Crimée</h3>
+                        <p>Variété de mi-saison à tardive, fruits de 120-150 g côtelés, légèrement aplatis, à chair dense, douce et sucrée, pourpre foncé, contenant peu de graines. Bonne résistance à la sécheresse.</p>
+                    </li>
+                    <li class="product">
+                        <input type="number" id="Zebra_id" name="Zebra_name" placeholder="0" min="0" max="10">
+                        <h3>Coeur de boeuf</h3>
+                        <p>Variété ancienne semi précoce et productive. Fruits de 200 à 300 g à la chair pleine et très savoureuse. Tomate savoureuse pour farcis, jus ou encore soupes froides.</p>
+                    </li>
+                    <li class="product">
+                        <input type="number" id="Zebra_id" name="Zebra_name" placeholder="0" min="0" max="10">
+                        <h3>Marmande</h3>
+                        <p>Variété ancienne assez précoce, vigoureuse et productive. Fruits de 150 à 250 g. Teneur en sucre élevée, idéale pour confection de sauces, à farcir, en gratin.</p>
+                    </li>
+                    <li class="product">
+                        <input type="number" id="Zebra_id" name="Zebra_name" placeholder="0" min="0" max="10">
+                        <h3>Matina</h3>
+                        <p>Variété vigoureuse, hâtive. Fruits de tailles moyennes (90-150 g), ronds et uniformes, résistants aux craquelures. Chair très savoureuse à maturité.</p>                  
+                    </li>
+                    <li class="product">
+                        <input type="number" placeholder="0" min="0" max="10">
+                        <h3>Saint-Pierre</h3>
+                        <p>Variété vigoureuse, demi-hâtive. Production abondante de fruits de 100-120 g, en bouquet de 4-5, jusqu'en automne. Chair ferme et savoureuse. Bonne résistance aux craquelures.                        </p>                  
+                    </li>
+                    <li class="product">
+                        <input type="number" placeholder="0" min="0" max="10">
+                        <h3>Rose de Berne</h3>
+                        <p>Variété de mi-saison, à petit rendement, peu sensible au mildiou. Fruits de 120 à 180 g. Fruits à peau très fine, chair dense, juteuse, sucrée et très parfumée. Une des meilleures en salade.                        </p>                  
+                    </li>
+                    <li class="product">
+                        <input type="number" placeholder="0" min="0" max="10">
+                        <h3>Andine</h3>
+                        <p>Variété ancienne précoce et rustique. Fruits allongés de 80 à 150 g à la chair ferme, juteuse, sans acidité, très digeste et parfumée. Pour salades ou en sauce tomate.                        </p>                  
+                    </li>
+                    <li class="product">
+                        <input type="number" placeholder="0" min="0" max="10">
+                        <h3>Ananas</h3>
+                        <p>Variété tardive à gros fruits de 250 à 400g sucrés et très parfumés. La chair contient peu de graines, elle est ferme, dense, juteuse, sucrée et très parfumée. Excellente en salade.                        </p>                  
+                    </li>
+
+                </ul>
+            </div>
+            </article>
+    </div>
+
+
 <%- include('partials/footer.ejs')%>

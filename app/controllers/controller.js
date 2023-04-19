@@ -1,7 +1,7 @@
 
-// pour plus tard const articles = require('../data/articles.json');
+// pour plus tard const plants = require('../data/plants.json');
 
-// controller de base pour preparer le remplissage dynamique ert les pages plants
+// controller de base pour preparer le remplissage dynamique et les pages plants
 const controller = {
 
     homePage(req, res){

@@ -8,9 +8,9 @@ router.get('/', controller.homePage);
 
 router.get('/plants/', controller.plantsPage);
 
-router.get('/tips/', controller.tipsPage);
+router.get('/conseils/', controller.tipsPage);
 
-router.get('/pictures/', controller.albumPage);
+router.get('/photos/', controller.albumPage);
 
 router.get('/contact/', controller.contactPage);
 
