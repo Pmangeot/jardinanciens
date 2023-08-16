@@ -4,17 +4,17 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use((req, res, next) => {
-  if (
-    req.header('x-forwarded-proto') !== 'https' &&
-    req.url === '/' &&
-    process.env.NODE_ENV === 'production'
-  ) {
-    res.redirect(`https://${req.header('host')}${req.url}`);
-  } else {
-    next();
-  }
-});
+//app.use((req, res, next) => {
+//  if (
+//    req.header('x-forwarded-proto') !== 'https' &&
+//    req.url === '/' &&
+//    process.env.NODE_ENV === 'production'
+//  ) {
+//    res.redirect(`https://${req.header('host')}${req.url}`);
+//  } else {
+//    next();
+//  }
+//});
 
 const staticOptions = {
   maxAge: '7d',
