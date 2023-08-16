@@ -315,13 +315,13 @@ h3{
     }
 
 
-    .left div, .right div{
+    .left div, .right div, .centered div{
         padding: 1rem 1.5rem 1rem 1.5rem;
         border-radius: 1rem 1rem 0 0;
         min-height: 4rem;
     }
 
-    .left, .right{
+    .left, .right, .centered{
         padding: 1rem;
     }
 
@@ -361,7 +361,7 @@ h3{
         border-radius: 0;
     }
 
-    .left h2, .right h2{
+    .left h2, .right h2, .centered h2{
         margin: 0 auto 2rem auto;
     }
 
