@@ -1,24 +1,20 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 const path = require('path');
+const cors = require('cors');
 
 const app = express();
+
 const PORT = process.env.PORT || 3000;
 
-//app.use((req, res, next) => {
-//  if (
-//    req.header('x-forwarded-proto') !== 'https' &&
-//    req.url === '/' &&
-//    process.env.NODE_ENV === 'production'
-//  ) {
-//    res.redirect(`https://${req.header('host')}${req.url}`);
-//  } else {
-//    next();
-//  }
-//});
+app.use(bodyParser.json());
+app.use(cors());
 
+// Réglage de cache pour les images
 const staticOptions = {
   maxAge: '7d',
 };
+
 app.use(express.static(path.join(__dirname, 'public'), staticOptions));
 
 const router = require('./app/routers/router');
@@ -28,5 +24,6 @@ app.set('views', 'views');
 app.use(router);
 
 app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
+  // eslint-disable-next-line no-console
+  console.log(`Started at http://127.0.0.1:${PORT}`);
 });
