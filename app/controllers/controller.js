@@ -5,7 +5,7 @@ const plants = require('../models/plants');
 
 // middleware pour les reservations
 
-const reserveGood = (req, res, next) => {
+const reservePlant = (req, res, next) => {
   try {
     const goodName = req.body.goodName;
     const name = req.body.name;
@@ -63,7 +63,7 @@ const controller = {
   },
 
   reservation(req, res) {
-    reserveGood(req, res, () => {
+    reservePlant(req, res, () => {
       res.sendStatus(200);
     });
   },
